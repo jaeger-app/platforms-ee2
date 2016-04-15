@@ -20,7 +20,7 @@ use JaegerApp\Platforms\AbstractPlatform;
  * @author Eric Lamb <eric@mithra62.com>
  */
 class Eecms extends AbstractPlatform
-{
+{ 
 
     /**
      * The Eecms config array
