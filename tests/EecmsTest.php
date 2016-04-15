@@ -1,26 +1,25 @@
 <?php
 /**
- * mithra62 - Unit Test
+ * Jaeger
  *
- * @copyright	Copyright (c) 2015, mithra62, Eric Lamb.
- * @link		http://mithra62.com/
+ * @copyright	Copyright (c) 2015-2016, mithra62
+ * @link		http://jaeger-app.com
  * @version		1.0
- * @filesource 	./mithra62/tests/CraftTest.php
+ * @filesource 	./tests/EecmsTest.php
  */
-namespace mithra62\tests\Platforms;
+namespace JaegerApp\tests;
 
-use mithra62\tests\TestFixture;
-use mithra62\Platforms\Eecms;
+use JaegerApp\Platforms\Eecms;
 
 /**
- * mithra62 - Craft object Unit Tests
+ * Jaeger - Craft object Unit Tests
  *
  * Contains all the unit tests for the \mithra62\Platforms\Craft object
  *
- * @package mithra62\Tests
+ * @package Jaeger\Tests
  * @author Eric Lamb <eric@mithra62.com>
  */
-class EecmsTest extends TestFixture
+class EecmsTest extends \PHPUnit_Framework_TestCase
 {
 
     public function testInit()
@@ -34,6 +33,6 @@ class EecmsTest extends TestFixture
         $this->assertTrue(method_exists($eecms, 'getSiteUrl'));
         $this->assertTrue(method_exists($eecms, 'getEncryptionKey'));
         $this->assertTrue(method_exists($eecms, 'getConfigOverrides'));
-        $this->assertInstanceOf('mithra62\\Platforms\\AbstractPlatform', $eecms);
+        $this->assertInstanceOf('JaegerApp\\Platforms\\AbstractPlatform', $eecms);
     }
 }
