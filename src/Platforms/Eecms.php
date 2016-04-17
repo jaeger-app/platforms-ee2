@@ -58,7 +58,7 @@ class Eecms extends AbstractPlatform
             'database' => ee()->db->database,
             'host' => ee()->db->hostname,
             'prefix' => ee()->db->dbprefix,
-            'settings_table_name' => ee()->db->dbprefix . 'backup_pro_settings'
+            'settings_table_name' => ee()->db->dbprefix . $this->getSettingsTable()
         );
     }
 
