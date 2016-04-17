@@ -7,7 +7,7 @@
  * @version		1.0
  * @filesource 	./Platforms/Eecms.php
  */
-namespace JaegerApp\View\Eecms;
+namespace JaegerApp\Platforms\View\Eecms;
 
 /**
  * Jaeger - Eecms View Object
