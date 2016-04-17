@@ -1,6 +1,10 @@
 {
 	"name": "jaeger-app/platforms-ee2",
 	"description": "An ExpressionEngine 2 CMS Platform object for use with Jaeger.",
+    "keywords": [
+        "ExpressionEngine 2",
+        "EECMS2"
+    ],	
 	"require": {
 		"php": ">=5.4.0",
 		"jaeger-app/exceptions": "dev-master",
