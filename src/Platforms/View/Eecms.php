@@ -5,7 +5,7 @@
  * @copyright	Copyright (c) 2015-2016, mithra62
  * @link		http://jaeger-app.com
  * @version		1.0
- * @filesource 	./Platforms/Eecms.php
+ * @filesource 	./Platforms/View/Eecms.php
  */
 namespace JaegerApp\Platforms\View;
 
